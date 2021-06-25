@@ -4,6 +4,8 @@ authors = ["Qi Zhang <singularitti@outlook.com>"]
 version = "0.2.0"
 
 [deps]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 StructEquality = "6ec83bb0-ed9f-11e9-3b4c-2b04cb4e219c"
 UnPack = "3a884ed6-31ef-47d7-9d2a-63182c4928ed"
