@@ -1,3 +1,5 @@
+using Compat: eachslice
+
 function list_points(mapping, grid, mesh, shift, ir_only)
     shift = shift ./ 2  # true / 2 = 0.5, false / 2 = 0
     if ir_only

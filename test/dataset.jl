@@ -36,7 +36,7 @@
     ]
     # Compared with Python results
     @test isempty(dataset.choice)
-    @test isapprox(dataset.origin_shift, [5.55111512e-17, 0, 0]; atol = 1e-16)
+    @test isapprox(dataset.origin_shift, [5.55111512e-17, 0, 0]; atol = 2e-16)
     @test dataset.pointgroup_symbol == "mmm"
     @test dataset.std_types == [35, 35, 35, 35, 35, 35, 35, 35] / 35
     @test dataset.std_positions ≈ [
